@@ -7,3 +7,4 @@ These are the programs I have included setting for:
   bash  
   i3  
   rofi  
+  xsettings  
