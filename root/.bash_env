@@ -1,0 +1,14 @@
+export JDK_HOME="/usr/lib/jvm/java-11-openjdk-11.0.2.7-0.fc28.x86_64"
+# export JAVA_HOME="/usr/lib/jvm/java-1.8.0.201.b09-2/jre"
+export IDEA_JDK="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.201.b09-2.fc28.x86_64"
+# export PATH="$PATH:/opt/android-studio/bin"
+# export _JAVA_OPTIONS="${_JAVA_OPTIONS} -javaagent:/usr/share/java/jayatanaag.jar"
+# export JAYATANA_FORCE=1
+export PATH="$JDK_HOME/bin:$PATH"
+
+# colored GCC warnings and errors
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+export EDITOR=vim
+
+xrandr --addmode VIRTUAL1 1920x1080
